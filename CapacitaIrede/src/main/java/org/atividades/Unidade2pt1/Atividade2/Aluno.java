@@ -1,0 +1,25 @@
+package org.atividades.Unidade2pt1.Atividade2;
+
+public class Aluno {
+    private String nome;
+    private int nota;
+
+    //getters e setters
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getNota() {
+        return nota;
+    }
+
+    public void setNota(int nota) {
+        if (nota <= 10 && nota  >= 0 ){
+            this.nota = nota;
+        }
+    }
+}
